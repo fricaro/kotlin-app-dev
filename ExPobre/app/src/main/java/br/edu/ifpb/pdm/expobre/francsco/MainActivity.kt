@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        this.tvNumeros = findViewById(R.id.tvNumeros)
+        this.tvNumeros = findViewById(R.id.tvNumbers)
 
         val btnClick = findViewById(R.id.btn_click_me) as Button
         btnClick.setOnClickListener {
