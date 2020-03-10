@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun download(){
-        var selection: String? = null
+        var selection = "ldpi"
         val resolutions = resources.getStringArray(R.array.sm_resolution)
         AlertDialog.Builder(this)
             .setTitle("Escolha um tamanho.")
