@@ -58,14 +58,14 @@ class MainActivity : AppCompatActivity() {
         this.ivImagem.setImageResource(R.drawable.super_mario)
     }
 
-    private fun downloadDaImagem(url: String?) : Bitmap{
+    private fun downloadDaImagem(url: String) : Bitmap{
         URL(url).openStream().use {
             val imagem = BitmapFactory.decodeStream(it)
             return imagem
         }
     }
 
-    private fun createSmHandler(formato: String?) {
+    private fun createSmHandler(formato: String) {
         val handler = Handler()
         val url = "http://www.valeria.eti.br/sm/sm_${formato}.png"
         Thread {
