@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button android:text="mensagem" android:id="@+id/btMensagem" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="input" android:id="@+id/btInput" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="data" android:id="@+id/btData" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="hora" android:id="@+id/btHora" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="faixa de valores" android:id="@+id/btFaixa" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="escolha" android:id="@+id/btEscolha" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="unique" android:id="@+id/btUnico" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="varios" android:id="@+id/btVarios" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
